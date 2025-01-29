@@ -1,32 +1,34 @@
-# mijuego4hfhreijvreg
+<h1 align='center'> 
+ PoliDog Game 
+</h1>
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
 
-A sample project implementing a 2D platformer. Includes launchers for each platform and a small but playable game.
+> [!IMPORTANT]
+> **Descripción**
+>
+> PoliDog Game wes un juego de plataformas inspirado en Super Mario Bros, pero con una temática basada en la Escuela Politécnica Nacional (EPN). En este juego, los jugadores exploran distintos escenarios representativos de la universidad, superando obstáculos, enfrentando desafíos y recolectando elementos característicos de la vida estudiantil.
+>
 
-## Platforms
+> [!NOTE]
+> **Características Principales**
+>
+>  * Plataformas Clásicas: Inspiradas en Super Mario Bros, con saltos y recolección de objetos.
+>  * Ambientación Universitaria: Escenarios y elementos inspirados en la Escuela Politécnica Nacional.
+>  * Gráficos Personalizados: Creación de mapas y escenarios con Tiled.
+>  * Desarrollo en Java: El juego ha sido programado en Java, utilizando librerías especializadas para el desarrollo de videojuegos.
 
-- `core`: Main module with the application logic shared by all platforms.
-- `android`: Android mobile platform. Needs Android SDK.
+> [!TIP]
+> **Tecnologías Utilizadas**
+> * Java: Lenguaje principal para la programación del juego.
+> * Tiled: Herramienta utilizada para la creación y edición de los escenarios.
+> * Bibliotecas Gráficas: Se utilizan librerías de Java para la manipulación de sprites y la lógica del juego.
 
-## Gradle
+> [!NOTE]
+> **Autores**
+> * John Mata: Logicá del programa
+> * Dustin Marcatoma: Implementación del personaje
+> * Isabel Pazto: Escenario del juego
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+> [!NOTE]
+> **Captutras de pantalla**
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `android:lint`: performs Android project validation.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `test`: runs unit tests (if any).
-
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
