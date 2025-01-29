@@ -1,6 +1,7 @@
-dogSprite2.png
-dogSprite3.png
-koalio-single.png
-koalio.png
+bloque.png
+bloque.tsx
+dog.png
+esfot.png
+esfot.tsx
 level1.tmx
 tileSet.png

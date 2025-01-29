@@ -36,7 +36,7 @@ public class Main extends InputAdapter implements ApplicationListener {
         static float WIDTH;
         static float HEIGHT;
         static float MAX_VELOCITY = 10f;
-        static float JUMP_VELOCITY = 30f;
+        static float JUMP_VELOCITY = 60f;
         static float DAMPING = 0.87f;
 
         enum State {
@@ -75,7 +75,7 @@ public class Main extends InputAdapter implements ApplicationListener {
     @Override
     public void create () {
         // load the koala frames, split them, and assign them to Animations
-        koalaTexture = new Texture("dogSprite3.png");
+        koalaTexture = new Texture("dog.png");
         TextureRegion[] regions = TextureRegion.split(koalaTexture, 41, 26)[0];
         stand = new Animation<TextureRegion>(0, regions[1]);
         jump = new Animation<TextureRegion>(0, regions[2]);

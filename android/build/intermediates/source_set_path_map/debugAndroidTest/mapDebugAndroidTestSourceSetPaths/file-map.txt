@@ -1,0 +1,4 @@
+io.github.some_example_name.test.android-androidTest-0 C:\Users\jhonm\Desktop\PoliDog-Game\android\build\generated\res\resValues\androidTest\debug
+io.github.some_example_name.test.android-mergeDebugAndroidTestResources-1 C:\Users\jhonm\Desktop\PoliDog-Game\android\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+io.github.some_example_name.test.android-mergeDebugAndroidTestResources-2 C:\Users\jhonm\Desktop\PoliDog-Game\android\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+io.github.some_example_name.test.android-debugAndroidTest-3 C:\Users\jhonm\Desktop\PoliDog-Game\android\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
