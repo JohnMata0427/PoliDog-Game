@@ -1,8 +1,10 @@
 <h1 align='center'> 
  PoliDog Game 
 </h1>
+<div align='center'><img  height=350px src='https://github.com/user-attachments/assets/16eeaf01-15b1-486e-aa97-19dbc1671866'></div>
 
 
+>
 > [!IMPORTANT]
 > **Descripción**
 >
