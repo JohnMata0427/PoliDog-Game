@@ -36,7 +36,7 @@ public class Main extends InputAdapter implements ApplicationListener {
         static float WIDTH;
         static float HEIGHT;
         static float MAX_VELOCITY = 10f;
-        static float JUMP_VELOCITY = 40f;
+        static float JUMP_VELOCITY = 30f;
         static float DAMPING = 0.87f;
 
         enum State {
@@ -75,18 +75,18 @@ public class Main extends InputAdapter implements ApplicationListener {
     @Override
     public void create () {
         // load the koala frames, split them, and assign them to Animations
-        koalaTexture = new Texture("koalio.png");
-        TextureRegion[] regions = TextureRegion.split(koalaTexture, 18, 26)[0];
-        stand = new Animation<TextureRegion>(0, regions[0]);
-        jump = new Animation<TextureRegion>(0, regions[1]);
+        koalaTexture = new Texture("dogSprite3.png");
+        TextureRegion[] regions = TextureRegion.split(koalaTexture, 41, 26)[0];
+        stand = new Animation<TextureRegion>(0, regions[1]);
+        jump = new Animation<TextureRegion>(0, regions[2]);
         walk = new Animation<TextureRegion>(0.15f, regions[2], regions[3], regions[4]);
         walk.setPlayMode(Animation.PlayMode.LOOP_PINGPONG);
 
         // figure out the width and height of the koala for collision
         // detection and rendering by converting a koala frames pixel
         // size into world units (1 unit == 16 pixels)
-        Koala.WIDTH = 1 / 16f * regions[0].getRegionWidth();
-        Koala.HEIGHT = 1 / 16f * regions[0].getRegionHeight();
+        koala.WIDTH = 1 / 16f * regions[0].getRegionWidth();
+        koala.HEIGHT = 1 / 16f * regions[0].getRegionHeight();
 
         // load the map, set the unit scale to 1/16 (1 unit == 16 pixels)
         map = new TmxMapLoader().load("level1.tmx");
