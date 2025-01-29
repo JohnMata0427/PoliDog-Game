@@ -34,3 +34,4 @@
 > [!NOTE]
 > **Captutras de pantalla**
 
+<div align='center'><img  height=350px src='https://github.com/user-attachments/assets/f0a3b0b6-96f9-4bc5-a634-414ae8007f45'></div>
