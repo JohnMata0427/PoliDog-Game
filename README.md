@@ -1,15 +1,13 @@
 <h1 align='center'> 
  PoliDog Game 
 </h1>
-<div align='center'><img  height=350px src='https://github.com/user-attachments/assets/16eeaf01-15b1-486e-aa97-19dbc1671866'></div>
 
-
->
 > [!IMPORTANT]
 > **Descripción**
 >
 > PoliDog Game wes un juego de plataformas inspirado en Super Mario Bros, pero con una temática basada en la Escuela Politécnica Nacional (EPN). En este juego, los jugadores exploran distintos escenarios representativos de la universidad, superando obstáculos, enfrentando desafíos y recolectando elementos característicos de la vida estudiantil.
->
+
+![image](https://github.com/user-attachments/assets/483f958c-e73d-45be-937b-393271ef3137)
 
 > [!NOTE]
 > **Características Principales**
@@ -31,7 +29,3 @@
 > * Dustin Marcatoma: Implementación del personaje
 > * Isabel Pazto: Escenario del juego
 
-> [!NOTE]
-> **Captutras de pantalla**
-
-<div align='center'><img  height=350px src='https://github.com/user-attachments/assets/f0a3b0b6-96f9-4bc5-a634-414ae8007f45'></div>
